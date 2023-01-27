@@ -1,0 +1,125 @@
+body {
+    background-color: #F2F2F2;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    background-color: white;
+    width: 450px;
+    height: 697px;
+    border-radius: 20px;
+}
+
+.img-container img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.text-container h1 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
+    margin-top: 45px;
+}
+
+.text-container p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    margin-top: 17px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.price-container {
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    margin: 20px 48px 0px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-container img {
+    padding: 25px 0px 25px 24px;
+}
+
+.price-container h3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.price {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.change {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+}
+
+.payment-container {
+    width: 354px;
+    height: 50px;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    margin: 32px 48px 100px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-container p {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.cancel-order {
+    display: flex;
+    justify-content: center;
+    margin-top: -56px;
+    padding-bottom: 48px
+}
+
+.cancel-order h3 {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
